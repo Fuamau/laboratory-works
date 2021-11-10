@@ -57,6 +57,7 @@ namespace ЛР6
                     Console.WriteLine($"Значение функции={y}");
                     break;
                 case "5":
+                    Console.WriteLine("Введите x:");
                     int x1 = int.Parse(Console.ReadLine());
                     float y1 = Convert.ToSingle(4 * Math.Pow(x1-3, 6) - 7 * Math.Pow(x1-3, 3) + 2);
                     Console.WriteLine($"Значение функции={y1}");
