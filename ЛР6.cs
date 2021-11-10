@@ -67,7 +67,7 @@ namespace ЛР6
                     t = A * A;
                     t = t * t;
                     t = t * t;
-                    Console.WriteLine("A в восьмой степени равна", t);
+                    Console.WriteLine($"A в восьмой степени равна {t}");
                     break;
                 case "7":
                     Console.WriteLine("Введите A:");
@@ -78,7 +78,7 @@ namespace ЛР6
                     k = j;
                     j = k * k;
                     j = j * k;
-                    Console.WriteLine("A в пятнадцатой степени равна", j);
+                    Console.WriteLine($"A в пятнадцатой степени равна {j}");
                     break;
             }
         }
