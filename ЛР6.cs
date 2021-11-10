@@ -72,7 +72,7 @@ namespace ЛР6
                     int A1 = int.Parse(Console.ReadLine());
                     int A3 = Convert.ToInt32(Math.Pow(A1, 3));
                     int A15 = A3 * A3 * A3 * A3 * A3;
-                    Console.WriteLine("A в восьмой степени равна", A15);
+                    Console.WriteLine("A в пятнадцатой степени равна", A15);
                     break;
             }
         }
